@@ -1,1 +1,20 @@
-/* Add screen styles below */
+@keyframes scale-up{
+    from{
+        background-color: lightblue;
+        transform: scaleX(0); 
+    }
+    to{
+        background-color: blue;
+        transform: scaleX(1);
+    }
+}
+
+#progressbar{
+    animation: 2.5s linear forwards scale-up;
+}
+
+h1{
+    font-size: 2.5em;
+    text-wrap: balance;
+    text-align: center;
+}
